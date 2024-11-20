@@ -23,3 +23,13 @@
 2024-11-20T03:27:44.098218Z 0 [System] [MY-010931] [Server] C:\DevTools\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
 2024-11-20T03:28:02.886615Z 8 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
 2024-11-20T03:42:34.844775Z 13 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2024-11-20T03:51:36.670467Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-11-20T03:51:36.670536Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-11-20T03:51:36.670673Z 0 [System] [MY-010116] [Server] C:\DevTools\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 10704
+2024-11-20T03:51:36.754959Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-11-20T03:51:36.755991Z 1 [ERROR] [MY-012271] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-11-20T03:51:36.756315Z 1 [ERROR] [MY-012278] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-11-20T03:51:36.756624Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2024-11-20T03:51:36.757092Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2024-11-20T03:51:36.757369Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-11-20T03:51:36.760962Z 0 [System] [MY-010910] [Server] C:\DevTools\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
